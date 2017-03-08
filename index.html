@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>RPS</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="rps.js"></script>
+    <style>
+      img { width: 300px; }
+      #options { display: none; }
+      #options img { cursor: pointer; }
+      #options img.active { border: 2px solid green; }
+      .red { color: red; font-size: 1.3em; }
+    </style>
+  </head>
+  <body>
+    <h1>RPS</h1>
+    <h4>You are player <span id="playerNum"></span></h4>
+    <section id="options">
+      <img src="images/rock.png" data-play="rock">
+      <img src="images/paper.jpg" data-play="paper">
+      <img src="images/scissors.svg" data-play="scissors">
+    </section>
+  </body>
+</html>
